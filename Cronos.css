@@ -1,0 +1,48 @@
+body{
+    background-image:url(imagens/fundocronos.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.numeral{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+div{
+    box-sizing: inherit;
+    text-align: center;
+    margin-top: 325px;
+}
+button{
+    height: 4.2em;
+    width: 7.3em;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    height: 100%;
+}
+.start{
+    background-color:green ;
+}
+.start:hover{
+    background: rgb(4, 156, 4);
+    transition: 1s;
+}
+.pause{
+    background-color:rgb(80, 78, 78) ;
+}
+.pause:hover{
+    background: rgb(97, 96, 96);
+    transition: 1s;
+}
+.stop{
+    background-color:rgb(172, 6, 6) ;
+}
+.stop:hover{
+    background: rgb(255, 0, 0);
+    transition: 1s;
+}
